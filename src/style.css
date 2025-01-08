@@ -1,0 +1,122 @@
+*{ 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+} 
+
+body{ 
+   background:url(https://img.freepik.com/free-vector/dark-gradient-background-with-copy-space_53876-99548.jpg?t=st=1736329994~exp=1736333594~hmac=4cbbdea615de7ce93344aa7edad20a6df42522fd6f9672d13de7159ba17615d7&w=996);
+   background-repeat: no-repeat; 
+   background-size: cover; 
+   background-position: center; 
+   display: inline; 
+    flex-direction: row; 
+ 
+}  
+
+#root{ 
+    text-align: center;
+} 
+
+
+
+.div_items {
+    background-color: #fff;
+    display: inline-block;
+    color: #1A1A1D;
+    text-align: left;
+    margin: 30px; 
+    padding: 20px; 
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 5px; /* Add rounded corners */
+    box-shadow: 0 2px 5px rgba(198, 195, 195, 0.498); /* Add a subtle shadow */ 
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+      cursor: pointer;
+  }
+img{ 
+    border: none; 
+    border-radius: 20px; 
+}
+h1{ 
+    text-align: center; 
+    margin: 30px; 
+    font-size: 3em; 
+    font-family: "Outfit", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #f1f1f1;
+
+}
+
+input{ 
+width: 250px; 
+padding-top: 15px; 
+padding-bottom: 15px; 
+border: none; 
+border-radius: 25px;
+margin-bottom: 50px;
+padding-left: 10px; 
+font-family: "Public Sans", serif;
+font-optical-sizing: auto;
+font-weight: 400;
+font-style: normal;
+}
+
+button{ 
+
+font-size: 1.3em; 
+margin-left: 20px; 
+padding: 6px; 
+border: 1px solid white;
+border-radius: 30px;  
+color: white; 
+margin-bottom: 50px;
+cursor: pointer;
+} 
+
+
+
+
+    .meal-details-container {
+        text-align: center;
+        padding: 30px;
+        font-family: 'Arial', sans-serif;
+      
+      }
+      
+      .meal-details {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        
+      }
+      
+      .meal-details img {
+        border-radius: 10px;
+        margin-bottom: 20px;
+        
+      }
+      
+      .meal-details h2 {
+        font-size: 2em;
+        color: #333;
+      }
+      
+      .meal-details h3,
+      .meal-details h4 {
+        color: #555;
+      }
+      
+      .meal-details p {
+        font-size: 1.2em;
+        color: #333;
+        line-height: 1.6;
+        margin-top: 10px;
+      }
+      
