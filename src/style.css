@@ -4,7 +4,7 @@
     box-sizing: border-box;
 } 
 
-body{ 
+/* body{ 
    background:url(https://img.freepik.com/free-vector/dark-gradient-background-with-copy-space_53876-99548.jpg?t=st=1737287219~exp=1737290819~hmac=03bb025e0a0aa7edf36c4229d8ad3f94115446b0de63eafdb6ff86b66352e408&w=996);
    background-repeat: no-repeat; 
    background-size: cover; 
@@ -12,7 +12,7 @@ body{
    display: inline; 
     flex-direction: row; 
  
-}  
+}   */
 
 #root{ 
     text-align: center;
@@ -21,40 +21,46 @@ body{
 
 
 .div_items {
-    background-color: #fff;
-    display: inline-block;
-    color: #1A1A1D;
-    text-align: left;
-    margin: 30px; 
-    padding: 20px; 
-    border: 1px solid #ccc; /* Add a border */
-    border-radius: 5px; /* Add rounded corners */
-    box-shadow: 0 2px 5px rgba(198, 195, 195, 0.498); /* Add a subtle shadow */ 
-    font-family: "Open Sans", serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-    font-variation-settings:
-      "wdth" 100;
-      cursor: pointer;
-  }
-img{ 
+  background: linear-gradient(145deg, #2a2a2e, #3a3a40);
+  display: inline-block;
+  color: #e0e0e0; 
+  text-align: left;
+  margin: 30px;
+  padding: 20px;
+  border: 1px solid #444; 
+  border-radius: 8px; 
+  box-shadow: 3px 3px 8px rgba(20, 20, 20, 0.5);
+  font-family: "Open Sans", serif;
+  font-weight: 500;
+  font-style: normal;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out; 
+}
+
+.div_items:hover {
+  background: linear-gradient(145deg, #323238, #424249); /* Slightly lighter on hover */
+  box-shadow: 5px 5px 12px rgba(15, 15, 15, 0.7);
+}
+
+.meal-img{ 
     border: none; 
     border-radius: 20px; 
 }
-h1{ 
-    text-align: center; 
+
+
+.search-title{ 
+    /* text-align: center; 
     margin: 30px; 
     font-size: 3em; 
     font-family: "Outfit", serif;
   font-optical-sizing: auto;
   font-style: normal;
-  color: #f1f1f1;
+  color: #f1f1f1; */
 
 }
 
-input{ 
-width: 250px; 
+.search-input{ 
+/* width: 250px; 
 padding-top: 15px; 
 padding-bottom: 15px; 
 border: none; 
@@ -64,10 +70,20 @@ padding-left: 10px;
 font-family: "Public Sans", serif;
 font-optical-sizing: auto;
 font-weight: 400;
-font-style: normal;
+font-style: normal; */
 }
 
-button{ 
+.search-input::placeholder {
+font-size: 15px;
+  color: #9CA3AF; /* Tailwind's gray-500 color */
+  font-style: italic;
+  padding-left: 10px;
+}
+
+/* .search-input:focus{ 
+  outline: 20px;
+} */
+.search-button{ 
 
 font-size: 1.3em; 
 margin-left: 20px; 
@@ -80,8 +96,16 @@ cursor: pointer;
 } 
 
 
+ 
+.meals-bg{ 
+  
+  background: linear-gradient(135deg, #0a0a0a, #111111, #1a1a1a, #000000);
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
 
-
+/* 
     .meal-details-container {
         text-align: center;
         padding: 30px;
@@ -119,4 +143,16 @@ cursor: pointer;
         line-height: 1.6;
         margin-top: 10px;
       }
-      
+       */
+
+
+
+.home-page-background{ 
+  
+  background: linear-gradient(135deg, #0a0a0a, #111111, #1a1a1a, #000000);
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+   /* Ensures text is readable */
+
+}
